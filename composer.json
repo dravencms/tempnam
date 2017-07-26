@@ -1,0 +1,34 @@
+{
+  "name": "dravencms/tempnam",
+  "type": "dravencms-package",
+  "description": "DravenCMS tempnam",
+  "keywords": [
+    "dravencms",
+    "tempnam"
+  ],
+  "license": [
+    "LGPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Adam Schubert"
+    }
+  ],
+  "require": {
+    "salamek/tempnam": "^v1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dravencms\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": {
+        "extensions": {
+          "tempnam": "Salamek\\Tempnam\\DI\\TempnamExtension"
+        }
+      }
+    }
+  }
+}
