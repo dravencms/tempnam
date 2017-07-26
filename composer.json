@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "salamek/tempnam": "^v1.0"
+    "salamek/nette-tempnam": "^v1.0"
   },
   "autoload": {
     "psr-0": {
