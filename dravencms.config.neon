@@ -1,0 +1,5 @@
+extensions:
+	tempnam: Salamek\Tempnam\DI\TempnamExtension
+
+tempnam:
+    tempDir: %wwwDir%/data
